@@ -10,17 +10,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #027512;
+    background: #129202;
   }
  
   main {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    background: #00a100c7;
+    color: rgb(255, 255, 255);
   }
  
   h1 {
     text-align: center;
+    background: #00a100c7;
+    color: aliceblue;
+    
   }
  
   hr {
@@ -33,6 +38,7 @@
   .game {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background: #00a100c;
   }
  
   .game button {
@@ -41,5 +47,6 @@
     margin: 5px;
     cursor: pointer;
     font-size: 50px;
-    background: #027a12;
+    background: #00a100c;
   }
+  
