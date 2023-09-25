@@ -17,13 +17,13 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    background: #00a100c7;
+    background: #49a300;
     color: rgb(255, 255, 255);
   }
  
   h1 {
     text-align: center;
-    background: #00a100c7;
+    background: #49a300;
     color: aliceblue;
     
   }
@@ -38,7 +38,10 @@
   .game {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background: #00a100c;
+    background: #49a300;
+    
+
+    
   }
  
   .game button {
@@ -47,6 +50,6 @@
     margin: 5px;
     cursor: pointer;
     font-size: 50px;
-    background: #00a100c;
+    background: #ffffff;
   }
   
